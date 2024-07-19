@@ -14,6 +14,13 @@
 		38871DB72C49AFCB003EF377 /* BalanceWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DB62C49AFCB003EF377 /* BalanceWellTests.swift */; };
 		38871DC12C49AFCB003EF377 /* BalanceWellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DC02C49AFCB003EF377 /* BalanceWellUITests.swift */; };
 		38871DC32C49AFCB003EF377 /* BalanceWellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DC22C49AFCB003EF377 /* BalanceWellUITestsLaunchTests.swift */; };
+		38871DD02C49B0FE003EF377 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DCF2C49B0FE003EF377 /* homePage.swift */; };
+		38871DD22C49B250003EF377 /* Stretches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DD12C49B250003EF377 /* Stretches.swift */; };
+		38871DD42C49B2C2003EF377 /* sleepTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DD32C49B2C2003EF377 /* sleepTracker.swift */; };
+		38871DD62C49B30F003EF377 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DD52C49B30F003EF377 /* Meditation.swift */; };
+		38871DD82C49B492003EF377 /* TwoMinuteTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DD72C49B492003EF377 /* TwoMinuteTimer.swift */; };
+		38871DDA2C49B501003EF377 /* FiveMinTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DD92C49B501003EF377 /* FiveMinTimer.swift */; };
+		38871DDC2C49B535003EF377 /* TenMinTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38871DDB2C49B534003EF377 /* TenMinTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		38871DBC2C49AFCB003EF377 /* BalanceWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalanceWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38871DC02C49AFCB003EF377 /* BalanceWellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceWellUITests.swift; sourceTree = "<group>"; };
 		38871DC22C49AFCB003EF377 /* BalanceWellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceWellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38871DCF2C49B0FE003EF377 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		38871DD12C49B250003EF377 /* Stretches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stretches.swift; sourceTree = "<group>"; };
+		38871DD32C49B2C2003EF377 /* sleepTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepTracker.swift; sourceTree = "<group>"; };
+		38871DD52C49B30F003EF377 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		38871DD72C49B492003EF377 /* TwoMinuteTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoMinuteTimer.swift; sourceTree = "<group>"; };
+		38871DD92C49B501003EF377 /* FiveMinTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveMinTimer.swift; sourceTree = "<group>"; };
+		38871DDB2C49B534003EF377 /* TenMinTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenMinTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,13 @@
 			children = (
 				38871DA52C49AFC9003EF377 /* BalanceWellApp.swift */,
 				38871DA72C49AFC9003EF377 /* ContentView.swift */,
+				38871DCF2C49B0FE003EF377 /* homePage.swift */,
+				38871DD52C49B30F003EF377 /* Meditation.swift */,
+				38871DD72C49B492003EF377 /* TwoMinuteTimer.swift */,
+				38871DD92C49B501003EF377 /* FiveMinTimer.swift */,
+				38871DDB2C49B534003EF377 /* TenMinTimer.swift */,
+				38871DD32C49B2C2003EF377 /* sleepTracker.swift */,
+				38871DD12C49B250003EF377 /* Stretches.swift */,
 				38871DA92C49AFCB003EF377 /* Assets.xcassets */,
 				38871DAB2C49AFCB003EF377 /* Preview Content */,
 			);
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38871DD42C49B2C2003EF377 /* sleepTracker.swift in Sources */,
+				38871DDC2C49B535003EF377 /* TenMinTimer.swift in Sources */,
+				38871DD02C49B0FE003EF377 /* homePage.swift in Sources */,
 				38871DA82C49AFC9003EF377 /* ContentView.swift in Sources */,
+				38871DD82C49B492003EF377 /* TwoMinuteTimer.swift in Sources */,
+				38871DDA2C49B501003EF377 /* FiveMinTimer.swift in Sources */,
+				38871DD62C49B30F003EF377 /* Meditation.swift in Sources */,
 				38871DA62C49AFC9003EF377 /* BalanceWellApp.swift in Sources */,
+				38871DD22C49B250003EF377 /* Stretches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
